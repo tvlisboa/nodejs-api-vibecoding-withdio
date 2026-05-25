@@ -9,10 +9,9 @@ const express = require("express");
 const router = express.Router();
 
 const {
-    createProduct,
-    listProducts,
+    createdProduct,
     findProducts,
-    findProductsById,
+    findProductById,
     updateProduct,
     deleteProduct
 } = require("../controllers/products.controller");
