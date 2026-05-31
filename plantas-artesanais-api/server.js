@@ -3,6 +3,7 @@
  * inicializacao do servidor
  */
 
+//importa o arquivo onde tem o express
 const app = require("./src/app");
 
 /**
