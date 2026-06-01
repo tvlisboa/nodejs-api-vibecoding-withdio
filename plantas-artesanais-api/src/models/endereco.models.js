@@ -1,6 +1,7 @@
 /**
- * estrutura da classe de enderecos
- * classe, atributos e metodos
+ * Classe intermediaria entre o cliente
+ * e seus enderecos
+ * estrutura da classe, atributos e metodos
  */
 
 class Endereco{
@@ -26,6 +27,7 @@ class Endereco{
         //dados para auditoria de atualizacao cadastral
         this.createdAt = new Date();
         this.updateAt = new Date();
+        this.deletedAt = new Date();
     }
 
 
