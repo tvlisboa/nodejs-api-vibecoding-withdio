@@ -6,6 +6,7 @@ const {v4 : uuidv4} = require("uuid");
 const Product = require("../models/products.models");
 const products = require("../database/db");
 const { json } = require("express");
+const { clients } = require("../database/database");
 
     /**
      * inserir produto

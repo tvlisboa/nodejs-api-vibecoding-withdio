@@ -13,6 +13,6 @@ const Client = require("../models/clients.models")
 module.exports ={
     products,
     clients
-}
+};
 
 
