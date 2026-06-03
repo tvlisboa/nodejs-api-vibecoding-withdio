@@ -4,7 +4,13 @@
  */
 
 //importa o arquivo onde tem o express
+const express = require("express")
 const app = require("./src/app");
+
+
+// const app = express();
+
+app.use(express.json());
 
 /**
  * onde sera habilitado a porta de inicio
